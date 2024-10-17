@@ -1,0 +1,36 @@
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[[plugins]]
+origin = "config"
+package = "netlify-plugin-imageengine"
+
+[plugins.inputs]
+deliveryAddress = "blazing-fast-pics.cdn.imgeng.in"
+
+[plugins.inputs.directives]
+height = 600.0
+width = 700.0
+rotate = 90.0
+
+[build]
+publish = "/home/akantipudi"
+publishOrigin = "default"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
