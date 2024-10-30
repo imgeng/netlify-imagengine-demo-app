@@ -10,16 +10,7 @@ package = "netlify-plugin-imageengine"
   rotate = 90
 
 [build]
-base = "/"          # Explicitly set root directory
-publish = "/"       # Where to publish from
-command = ""        # Empty if no build needed
+publish = "./"
 
 [build.environment]
 NODE_VERSION = "18"
-CI = "true"
-
-[build.processing]
-  skip_processing = true  # Skip post-processing
-
-[functions]
-  directory = "netlify/functions"  # Default functions directory
