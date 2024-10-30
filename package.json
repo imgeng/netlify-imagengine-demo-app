@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "netlify-plugin-imageengine": "^1.0.0"
+    "netlify-plugin-imageengine": "^0.1.1"
   }
 }
