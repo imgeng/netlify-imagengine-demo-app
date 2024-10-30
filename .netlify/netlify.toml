@@ -18,7 +18,7 @@ width = 700.0
 rotate = 90.0
 
 [build]
-publish = "/home/akantipudi"
+publish = "/home/akantipudi/Desktop/ntest"
 publishOrigin = "default"
 
 [build.environment]
