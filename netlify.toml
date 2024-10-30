@@ -8,3 +8,6 @@ package = "netlify-plugin-imageengine"
   height = 600
   width = 700
   rotate = 90
+
+[build]
+publish = "/"
